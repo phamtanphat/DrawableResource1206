@@ -9,6 +9,7 @@
 
 
     <Button
+        android:background="@drawable/drawable_button_shape"
         android:layout_centerInParent="true"
         android:text="Drawable Shapre"
         android:id="@+id/buttonDrawableShape"
