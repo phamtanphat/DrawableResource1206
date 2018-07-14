@@ -6,13 +6,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-
     <Button
         android:background="@drawable/drawable_button_shape"
-        android:layout_centerInParent="true"
         android:text="Drawable Shapre"
         android:id="@+id/buttonDrawableShape"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:src="@drawable/drawble_button_clip"
+        android:id="@+id/imageviewDrawableClip"
+        android:layout_below="@id/buttonDrawableShape"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <Button
+        android:layout_centerHorizontal="true"
+        android:text="Clip"
+        android:layout_below="@id/imageviewDrawableClip"
+        android:id="@+id/buttonDrawableClip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
